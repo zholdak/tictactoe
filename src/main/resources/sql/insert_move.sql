@@ -1,0 +1,1 @@
+insert into moves (match_id,opponent,position) values (:matchId,:opponent,:position);

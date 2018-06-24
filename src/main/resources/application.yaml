@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: tictactoe
+  main:
+    banner-mode: console
+  datasource:
+    initialization-mode: embedded
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+    static-path-pattern: /**
+
+server:
+  port: 8080
+
+
+logging:
+  level:
+    root: info
+    com.zholdak.testing: trace
+
