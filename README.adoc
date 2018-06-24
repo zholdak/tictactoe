@@ -1,0 +1,15 @@
+= TicTacToe
+Aleksey Zholdak <aleksey@zholdak.com>
+
+Testing project, nothing serious :)
+
+To run it, just:
+
+[source, bash]
+----
+gradle bootRun
+----
+
+Working application will be waiting you at `http://localhost:8080/`
+
+Good luck!
